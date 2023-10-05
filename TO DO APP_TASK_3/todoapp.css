@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    /* background-image: linear-gradient(to right, #605e7e, #6b73c1, #37b3cc); */
+    background-image: url("https://img.freepik.com/free-vector/abstract-watercolor-background_23-2149038179.jpg?size=626&ext=jpg");
+    margin: 50px 2%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+#typedtext{
+    font-family: 'Waiting for the Sunrise', cursive; 
+    letter-spacing: 6px; 
+    color: red;
+    font-weight: bolder;   
+    font-size: 50px; 
+    text-align: center;
+}
+
+
+.container-title {
+    font-size: 25px;
+    text-align: center;
+    margin: 0 0 30px 0;
+    color: white;
+    text-shadow: 3px 1px black;
+}
+
+#to-do-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  #input-task {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 18px;
+    width: 60%;
+  }
+  
+  button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #0a0b0a;
+    color: rgb(244, 240, 240);
+  }
+
+  button:hover{
+    background-color: rgb(86, 75, 236);
+  }
+  
+  #pending-tasks,
+  #completed-tasks {
+    width: 90%;
+    margin: 50px auto;
+    background-color: #c9c3c3;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  #pending-tasks h2,
+  #completed-tasks h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: x-large;
+
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bolder;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: #4963f4;
+    font-size: x-large;
+  }
+  
+  #pending-tasks {
+    background-color:aqua;
+    font-size: x-large;
+    color: #0e0e0e;
+
+  }
+  
+  #completed-tasks {
+    background-color:#c9c3c3;
+    
+  }
+  
+  #task-list li {
+    background-color: #faf6f6;
+    font-weight: bolder;
+  }
+  
+  #completed-list li {
+    background-color: #e6ffe6;
+    font-weight: bolder;
+    color: #181819;
+  }
+
+
+  input.completed-checkbox {
+    width: 20px;
+    height: 20px;
+    
+    margin-left: 10px;
+    padding-left: 10px;
+    float: right;
+}
+
+
+  
